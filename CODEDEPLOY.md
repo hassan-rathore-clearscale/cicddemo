@@ -20,4 +20,3 @@ aws s3api put-bucket-versioning --bucket aws-devops-course-stephane --versioning
 ```
 aws deploy push --application-name CodeDeployDemo --s3-location s3://aws-devops-course-stephane/codedeploy-demo/app.zip --ignore-hidden-files --region eu-west-1 --profile aws-devops
 ```
-
